@@ -157,7 +157,7 @@ function App() {
     };
 
     return (
-        <Router>
+        <Router basename="/DD-Real-Estate-V1">
             <ScrollToTop />
             <Routes>
                 {/* Admin Routes - No Header/Footer */}
