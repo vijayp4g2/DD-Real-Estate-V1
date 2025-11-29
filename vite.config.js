@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [react()],
-    base: '/DD-Real-Estate-V1/',
+    base: '/Real-estate/',
     server: {
         allowedHosts: [
             'xlztvg-5173.csb.app',
