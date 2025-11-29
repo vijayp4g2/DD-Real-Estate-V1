@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -157,7 +157,7 @@ function App() {
     };
 
     return (
-        <Router basename="/DD-Real-Estate-V1">
+        <Router>
             <ScrollToTop />
             <Routes>
                 {/* Admin Routes - No Header/Footer */}
