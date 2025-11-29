@@ -5,4 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
     plugins: [react()],
     base: '/DD-Real-Estate-V1/',
+    server: {
+        allowedHosts: [
+            'xlztvg-5173.csb.app',
+            '.csb.app' // Allow all CodeSandbox hosts
+        ]
+    }
 })
